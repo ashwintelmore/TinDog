@@ -1,0 +1,227 @@
+* {
+  line-height: 2;
+  
+}
+
+#title {
+  background-color: #ff4c68;
+  padding: 8% 2% 20% 2%;
+  margin-bottom: -8%;
+  z-index: -1;
+  width: 100%;
+  position: relative;
+}
+.col1{
+  width: 380px;
+  margin-left: 80px;
+}
+
+
+
+.dogimg {
+  width: 25%;
+  transform: rotate(30deg);
+  right: 130px;
+  position: absolute;
+  z-index: 0;
+  background-clip: black;
+}
+
+.heading {
+
+  font-size: 70px;
+  color: white;
+  font-family: 'EB Garamond', serif;
+  line-height: 1.2;
+  font-weight: 900;
+  padding-left: 20px;
+}
+
+.bra {
+  font-size: 35px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 80px;
+  
+}
+
+.nichu{
+  z-index: 7;
+}
+
+.btn1{
+  margin: 10px;
+}
+
+
+
+.top {
+  margin-left: 4%;
+  z-index: 10;
+
+}
+
+.col {
+  margin-left: 4%;
+}
+
+
+.navbar-link {
+  color: white;
+}
+
+
+#features{
+  background-color: white;
+  z-index: 2;
+  position: relative;
+}
+
+
+.features {
+  text-align: center;
+  width: 30%;
+  font-size: 25px;
+  margin: 200px 1% 200px 1%;
+  display: inline-block;
+ 
+}
+
+.three {
+  font-size: 40px;
+}
+p {
+  color: grey;
+}
+
+.icon {
+  color: #ef1872;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+#testimonials {
+  background-color: #ef1872;
+  text-align: center;
+  padding: 13% 3%;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 30px;
+
+}
+.second-heading{
+  
+  font-size: 60px;
+  color: white;
+}
+
+#press {
+  background-color: #ef1872;
+  text-align: center;
+}
+
+#press img {
+  width: 15%;
+  margin: 50px 13px 35px 13px;
+}
+
+.dog2 {
+  border-radius: 100%;
+  width: 20%;
+  margin: 2% 2%;
+}
+
+#pricing{
+  padding: 50px 0px;
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.price{
+  margin: 50px 0px;
+}
+
+.card-header h3{
+  font-size: 2rem;
+  
+}
+
+.third-heading{
+  font-size: 3rem;
+  
+}
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 150px 0px;
+}
+#cta h3{
+  font-size: 50px;
+  color: white;
+  font-family: 'EB Garamond', serif;
+
+}
+#footer{
+  padding: 90px 0px;
+  text-align: center;
+  font-size: 30px;
+}
+#footer a{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+
+@media (max-width:400px){
+  
+  .title{
+  }
+  .dogimg{
+    position: static;
+    transform: rotate(0deg);
+    width: 100%;
+  }
+  .bra{
+    margin-left: 0px;
+  }
+  .col1{
+    
+    text-align: center;
+    margin: auto;
+  }
+  #features{
+  }
+  
+  .features{
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+  
+  #testimonials{
+    font-size: 20px;
+  }
+  
+  .second-heading{
+    font-size: 20px;
+  }
+ #pricing{
+   margin: 0px;
+ }
+  .p{
+    width: 100%;
+  }
+
+#footer{
+  text-align: center;
+  padding: 50px 0px;
+  font-size: 20px;
+}
+}
+
